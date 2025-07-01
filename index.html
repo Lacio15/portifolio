@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lácio Machado | Portfólio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div>
+        <h1>Lácio Machado</h1>
+        <p>Designer & Desenvolvedor</p>
+        <nav class="nav">
+          <a onclick="showSection('sobre')">Sobre</a>
+          <a onclick="showSection('experiencias')">Experiências</a>
+          <a onclick="showSection('contato')">Contatos</a>
+        </nav>
+      </div>
+      <div class="toggle">
+        <span>CLARO</span>
+        <button id="toggle-theme">◐</button>
+        <span>ESCURO</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section id="sobre" class="section active">
+        <p>
+          Nascido em 2001 em Salvador, Brasil.<br><br>
+          Estudante de ADS, análise e desenvolvimento de sistemas, na unijorge em Salvador, bahia. Apaixonado por tecnologia.
+        </p>
+
+        <h2>Projetos</h2>
+        <div class="cards">
+          <a href="https://github.com/Lacio15/Projeto_TechSolutions.git" target="_blank" class="card">
+            <img src="imagens/techsolution.png" alt="Imagem do Projeto a TechSolution" />
+            <h3>TechSolution</h3>
+          </a>
+          
+          <a href="https://github.com/Lacio15/Aula_formulario.git" target="_blank" class="card">
+            <img src="imagens/formulaio.png" alt="Imagem do Projeto de formulario simples" />
+            <h3>Formulário Simples</h3>
+          </a>
+
+          <a href="https://github.com/Lacio15/youtube.git" target="_blank" class="card">
+            <img src="imagens/youtube.png" alt="Clone do youtube" />
+            <h3>Youtube</h3>
+          </a>
+
+        </div>
+      </section>
+
+      <section id="experiencias" class="section">
+        <h2>Experiências</h2>
+        <ul>
+          <li><strong>HTML:</strong> Básico.</li>
+          <li><strong>CSS:</strong> Básico.</li>
+          <li><strong>JavaScript:</strong> Básico.</li>
+          <li><strong>C:</strong> Básico.</li>
+        </ul>
+      </section>
+
+      <section id="contato" class="section">
+        <h2>Contatos</h2>
+        <p>Você pode me encontrar em:</p>
+        <ul>
+          <li>Email: <a href="mailto:laciomachado@gmail.com">laciomachado@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/l%C3%A1cio-machado-0a004723b/" target="_blank">linkedin.com/Lácio Machado</a></li>
+          <li>GitHub: <a href="https://github.com/Lacio15" target="_blank">github.com/Lacio15</a></li>
+          <li>Celular: <a href=tel:5574999400340>74 999400340</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
